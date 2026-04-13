@@ -29,6 +29,11 @@ repository = "https://github.com/guillaume-gaisne/test-oasis"
 [project.optional-dependencies]
 # Add your plugins to the list below.
 plugins = [
+  "nomad-damask-parser @ git+https://github.com/AddMorePower/nomad-DAMASK_parser.git@v0.3.0",
+  "nomad-sxdm-parser @ git+https://github.com/AddMorePower/nomad-SXDM_parser.git@v0.2.0",
+  "nomad-txrm-parser @ git+https://github.com/AddMorePower/nomad-TXRM_parser.git@v0.3.0",
+  "nomad-ebsd-parser @ git+https://github.com/AddMorePower/nomad-EBSD_parser.git@v0.3.0",
+  "comsol-parser @ git+https://github.com/AddMorePower/nomad-COMSOL_parser.git@v0.1.0",
  "nomad-north-jupyter>=0.2.1"
   ]
 jupyter = ["jupyter-events"]
