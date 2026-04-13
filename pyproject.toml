@@ -34,7 +34,7 @@ plugins = [
   "nomad-txrm-parser @ git+https://github.com/AddMorePower/nomad-TXRM_parser.git@v0.3.0",
   "nomad-ebsd-parser @ git+https://github.com/AddMorePower/nomad-EBSD_parser.git@v0.3.0",
   "comsol-parser @ git+https://github.com/AddMorePower/nomad-COMSOL_parser.git@v0.1.0",
- "nomad-north-jupyter>=0.2.1"
+ "nomad-north-jupyter>=0.2.5"
   ]
 jupyter = ["jupyter-events"]
 gpu-action = []
